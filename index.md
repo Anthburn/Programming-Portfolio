@@ -39,23 +39,51 @@ Shapes is a project designed to explore Classes and OO relationships.
 
 [Shapes - Repository Link](https://github.com/Anthburn/Shapes)
 
-![alt text](https://github.com/Anthburn/Programming1/blob/master/gamestart.png "Game Start")
+![alt text](https://github.com/Anthburn/Shapes/blob/master/shapes_screenshot.png "Shapes ScreenShot")
 
-![alt text](https://github.com/Anthburn/Programming1/blob/master/ingame1.png "In Game 1")
-
-![alt text](https://github.com/Anthburn/Programming1/blob/master/ingame2.png "In Game 2")
-
-![alt text](https://github.com/Anthburn/Programming1/blob/master/youlose.png "You Lose!")
 
 ### Sample Code Snippet
 ```markdown
-void death() {
-  background(0);
-  textAlign(CENTER);
-  fill(222);
-  textSize(25);
-  text("Game Over! YOU LOSE CAUSE YOU SUCK!!! SUCKS TO SUCK SUCKER!!!!", width/2, height/2);
-  noLoop();
+public class Box {
+
+    private int length;
+    private int width;
+    private int height;
+
+    public Box(){
+        this.length = 0;
+        this.width = 0;
+        this.height = 0;
+    }
+
+    public void setLength (int length) {
+        this.length = length;
+    }
+    public void setWidth (int width) {
+        this.width = width;
+    }
+    public void setHeight (int height) {
+        this.height = height;
+    }
+    public int getLength() {
+        return this.length;
+    }
+    public int getWidth() {
+        return this.width;
+    }
+    public int getHeight() {
+        return this.height;
+    }
+
+    public int getVolume() {
+        //volume = height*width*length
+        return this.height*this.width*this.length;
+    }
+    public int getSurfaceArea() {
+        //surface area of box = 2(h × W) + 2(h × L) + 2(W × L)
+        return 2*(this.height*this.width) + 2*(this.height*this.length) + 2*(this.width * this.length);
+    }
+}
 }
 ```
 
