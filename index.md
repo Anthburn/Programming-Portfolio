@@ -2,13 +2,36 @@
 
 ### Contact Information
 Anthony Burnham
-[Link](mailto:iamsamsoccer@gmail.com)
+[Email Anthony Burnham](mailto:iamsamsoccer@gmail.com)
 
 ## Group Project - SpaceShip Game
-###SpaceShip Game
-[Link](https://github.com/Anthburn/SpaceshipGame-master)
 
+### SpaceShip Game
 
+SpaceShip Game is a game created by Daniel Canto, Nate Payne, Nicholas Gonzalez, Silvio Santini and Sam Burnham with 
+special thanks to Kanishka Ragula and Mr. Kapptie.
+
+[SpaceShip Game - Repository Link](https://github.com/Anthburn/SpaceshipGame-master)
+
+![alt text](https://github.com/Anthburn/Programming1/blob/master/gamestart.png "Game Start")
+
+![alt text](https://github.com/Anthburn/Programming1/blob/master/ingame1.png "In Game 1")
+
+![alt text](https://github.com/Anthburn/Programming1/blob/master/ingame2.png "In Game 2")
+
+![alt text](https://github.com/Anthburn/Programming1/blob/master/youlose.png "You Lose!")
+
+### Sample Code Snippet
+```markdown
+void death() {
+  background(0);
+  textAlign(CENTER);
+  fill(222);
+  textSize(25);
+  text("Game Over! YOU LOSE CAUSE YOU SUCK!!! SUCKS TO SUCK SUCKER!!!!", width/2, height/2);
+  noLoop();
+}
+```
 
 
 You can use the [editor on GitHub](https://github.com/Anthburn/Programming1/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
