@@ -13,7 +13,7 @@ special thanks to Kanishka Ragula and Mr. Kapptie.
 
 [SpaceShip Game - Repository Link](https://github.com/Anthburn/SpaceshipGame-master)
 
-![alt text](gamestart.png "Game Start")
+![alt text](anthburn.github.io/ProgrammingPortfolio/gamestart.png "Game Start")
 
 ![alt text](ingame1.png "In Game 1")
 
