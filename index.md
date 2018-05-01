@@ -39,7 +39,7 @@ Shapes is a project designed to explore Classes and OO relationships.
 
 [Shapes - Repository Link](https://github.com/Anthburn/Shapes)
 
-![alt text](https://github.com/Anthburn/Shapes/blob/master/shapes_screenshot.png "Shapes ScreenShot")
+![alt text](shapes_screenshot.png "Shapes ScreenShot")
 
 
 ### Sample Code Snippet
