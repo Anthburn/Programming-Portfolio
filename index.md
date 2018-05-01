@@ -13,13 +13,13 @@ special thanks to Kanishka Ragula and Mr. Kapptie.
 
 [SpaceShip Game - Repository Link](https://github.com/Anthburn/SpaceshipGame-master)
 
-![alt text](https://github.com/Anthburn/Programming1/blob/master/gamestart.png "Game Start")
+![alt text](/gamestart.png "Game Start")
 
-![alt text](https://github.com/Anthburn/Programming1/blob/master/ingame1.png "In Game 1")
+![alt text](/ingame1.png "In Game 1")
 
-![alt text](https://github.com/Anthburn/Programming1/blob/master/ingame2.png "In Game 2")
+![alt text](/ingame2.png "In Game 2")
 
-![alt text](https://github.com/Anthburn/Programming1/blob/master/youlose.png "You Lose!")
+![alt text](/youlose.png "You Lose!")
 
 ### Sample Code Snippet
 ```markdown
